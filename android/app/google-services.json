@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "475131311732",
+    "project_id": "docinsight-da625",
+    "storage_bucket": "docinsight-da625.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475131311732:android:e6ab4942e26977537d8321",
+        "android_client_info": {
+          "package_name": "com.hbtech.doc_insight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475131311732-pij9j71rlp8avvb81ir88stbf2ks526q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hbtech.doc_insight",
+            "certificate_hash": "8e44aa9636b340efb9128e80accbfe3a276cf375"
+          }
+        },
+        {
+          "client_id": "475131311732-q2jar4n3mh7kcnfra6tpjnnltbkhbj5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAp7HdYAZus11cqdkiBRJoUDjZ89S3zfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475131311732-q2jar4n3mh7kcnfra6tpjnnltbkhbj5d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "475131311732-e4s7pa3jmhrcoqdjimdhc6mnbr8l9mek.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.docInsight.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

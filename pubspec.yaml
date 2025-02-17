@@ -1,0 +1,86 @@
+name: doc_insight
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_spinkit: ^5.2.0
+  http: ^1.2.1
+  provider: ^6.1.1
+  animated_text_kit: ^4.2.2
+  firebase_core: ^2.27.0
+  firebase_storage: ^11.6.9
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  fluttertoast: ^8.2.4
+  google_sign_in: ^6.2.1
+  persistent_bottom_nav_bar: ^5.0.2
+  string_extensions: ^0.7.1
+  image_picker: ^1.0.8
+  string_capitalize: ^0.0.10
+  font_awesome_flutter: ^10.7.0
+  lottie: ^3.1.0
+  carousel_slider: ^4.2.1
+  intl: ^0.19.0
+  another_flushbar: ^1.12.30
+  connectivity_plus: ^6.0.3
+  flutter_dotenv: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - .env
+
+  fonts:
+    - family: Audiowide
+      fonts:
+        - asset: assets/fonts/Audiowide-Regular.ttf
+    - family: Gothic
+      fonts:
+        - asset: assets/fonts/NanumGothic-Regular.ttf
+    - family: Request
+      fonts:
+        - asset: assets/fonts/Request-Personal-Use.ttf
+    - family: Titan
+      fonts:
+        - asset: assets/fonts/TitanOne-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: PoppinsBold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+    - family: InterBold
+      fonts:
+        - asset: assets/fonts/Inter-Bold.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
